@@ -5,3 +5,24 @@
 .feedback-center{border:1px solid #e8eaf2;border-radius:16px}
 .feedback-center-head{padding:22px 24px}.feedback-center-list{padding:15px}.feedback-entry{border-radius:11px;transition:border-color .18s ease,box-shadow .18s ease}.feedback-entry:hover{border-color:#dfe3fb;box-shadow:0 5px 16px #2732570a}
 @media(max-width:760px){.feedback-center-trigger{height:40px;padding:0 13px}.feedback-center-head{padding:16px}.feedback-center-list{padding:9px}}
+body .feedback-center-trigger{border-color:#cbd8df;background:linear-gradient(135deg,#fff,#f2f8f7);color:#075f56;box-shadow:0 8px 22px #1e34421a}
+body .feedback-center-trigger:hover{border-color:#8bbcaf;background:#fff}
+body .feedback-center{background:#fff;border-color:#dce5e9}
+body .feedback-center-head{background:#fff;border-color:#dce5e9}
+body .feedback-center-head h2{color:#172f40}
+body .feedback-center-head p{color:#526273}
+body .feedback-entry{background:#fff;border-color:#dce5e9}
+body .feedback-type-pill{background:#e4f2ef;color:#145e52}
+body .feedback-state{background:#fff1d6;color:#754d08}
+body .feedback-state.reviewed{background:#e4f4e9;color:#1d6037}
+body .feedback-state.resolved{background:#e8f2f6;color:#155a76}
+body .feedback-meta{color:#526273}
+body .feedback-meta b{color:#344b5c}
+body .feedback-field>b,body .feedback-correction>b{color:#526273}
+body .feedback-field p,body .feedback-correction p{color:#344b5c}
+body .feedback-review-actions>span{color:#526273}
+body .feedback-review-actions button{border-color:#cbd8df;color:#344b5c}
+body .feedback-review-actions button:hover:not(:disabled){border-color:#9bbfb6;background:#eff8f5}
+body .feedback-center-loading,body .feedback-center-empty{color:#526273}
+body .feedback-center-empty b{color:#243b4c}
+body .feedback-center-empty svg{color:#12665e}
